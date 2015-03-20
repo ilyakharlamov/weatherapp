@@ -1,7 +1,7 @@
 {
-  "name": "bradleyboy-react-starter",
-  "version": "1.0.0",
-  "description": "My React starter kit. Webpack, Babel, Sass, React 0.13.",
+  "name": "ilyakharlamov-react-weatherapp",
+  "version": "0.0.1",
+  "description": "https://gist.github.com/TimBeyer/2565bd2b085fdb38000f",
   "main": "app/index.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start conf/karma.conf.js --single-run",
@@ -12,7 +12,11 @@
     "build": "webpack --config conf/webpack.production.js",
     "build:gh": "npm run build && node ./build-gh-pages.js && rm -r ./dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ilyakharlamov/weatherapp.git"
+  },
+  "author": "ilya kharlamov",
   "license": "MIT",
   "dependencies": {
     "classnames": "^1.1.4",
